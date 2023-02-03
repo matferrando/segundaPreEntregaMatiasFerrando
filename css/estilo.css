@@ -87,3 +87,7 @@ footer ul li {
 div ul li {
     list-style-type: none;
 }
+
+.list-group {
+    display: inline-block;
+}

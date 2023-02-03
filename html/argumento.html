@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Breaking Bad - Argumento</title>
+    <!-- CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -174,35 +176,41 @@
         </div>
         <div class="container align-items-center">
             <div class="row text-center">
-                <div class="col-xl-4 col-md-6 col-sm-12 mt-2 mb-2">
+                <div data-aos="fade-up" class="col-xl-4 col-md-6 col-sm-12 mt-2 mb-2">
                     <div class="card" style="width: 18rem;">
                         <img src="../imgs/wwbryan.jpg" class="card-img-top" alt="Bryan Cranstron, actor de Walt.">
                         <div class="card-body">
                             <h5 class="card-title">Bryan Cranston</h5>
-                            <p class="card-text">Walter Hartwell White, es un personaje ficticio y protagonista de la serie de televisión estadounidense Breaking Bad.</p>
-                            <a href="https://es.wikipedia.org/wiki/Walter_White" class="btn btn-primary" target="_blanck">Biografia</a>
+                            <p class="card-text">Walter Hartwell White, es un personaje ficticio y protagonista de la
+                                serie de televisión estadounidense Breaking Bad.</p>
+                            <a href="https://es.wikipedia.org/wiki/Walter_White" class="btn btn-primary"
+                                target="_blanck">Biografia</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-sm-12 mt-2 mb-2">
+                <div data-aos="fade-down" class="col-xl-4 col-md-6 col-sm-12 mt-2 mb-2">
                     <div class="card" style="width: 18rem;">
                         <img src="../imgs/aaron.jpg" class="card-img-top" alt="Aaron Paul, actor de Jesse.">
                         <div class="card-body">
-                          <h5 class="card-title">Aaron Paul</h5>
-                          <p class="card-text">Jesse Pinkman es un personaje ficticio creado por Vince Gilligan e interpretado por Aaron Paul en la serie de Breaking Bad.</p>
-                          <a href="https://es.wikipedia.org/wiki/Jesse_Pinkman" class="btn btn-primary" target="_blanck">Biografia</a>
+                            <h5 class="card-title">Aaron Paul</h5>
+                            <p class="card-text">Jesse Pinkman es un personaje ficticio creado por Vince Gilligan e
+                                interpretado por Aaron Paul en la serie de Breaking Bad.</p>
+                            <a href="https://es.wikipedia.org/wiki/Jesse_Pinkman" class="btn btn-primary"
+                                target="_blanck">Biografia</a>
                         </div>
-                      </div>
+                    </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-sm-12 mt-2 mb-2">
+                <div data-aos="fade-left" class="col-xl-4 col-md-6 col-sm-12 mt-2 mb-2">
                     <div class="card" style="width: 18rem;">
                         <img src="../imgs/skyler.png" class="card-img-top" alt="Anna Gunn, actriz de Skyler.">
                         <div class="card-body">
-                          <h5 class="card-title">Anna Gunn</h5>
-                          <p class="card-text">Skyler White es un personaje ficticio de Breaking Bad, interpretado por Anna Gunn.</p>
-                          <a href="https://breakingbad.fandom.com/es/wiki/Skyler_White" class="btn btn-primary" target="_blanck">Biografia</a>
+                            <h5 class="card-title">Anna Gunn</h5>
+                            <p class="card-text">Skyler White es un personaje ficticio de Breaking Bad, interpretado por
+                                Anna Gunn.</p>
+                            <a href="https://breakingbad.fandom.com/es/wiki/Skyler_White" class="btn btn-primary"
+                                target="_blanck">Biografia</a>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -211,19 +219,33 @@
     </main>
 
     <div class="container-fluid bg-dark text-center p-1">
-                    <h3>Sitio web creado por Matias Ferrando</h3>
-            <h4>Todos los derechos reservados por AMC.</h4>
-            <ul>
-                <li><a href="https://www.facebook.com/BreakingBad/" target="_blanck">Facebook</a></li>
-                <li><a href="https://www.instagram.com/breakingbad/" target="_blanck">Instagram</a></li>
-                <li><a href="https://www.youtube.com/@breakingbad" target="_blanck">Youtube</a></li>
-            </ul>
-        
+        <h3>Sitio web creado por Matias Ferrando</h3>
+        <h4>Todos los derechos reservados por AMC.</h4>
+        <ul>
+            <li><a href="https://www.facebook.com/BreakingBad/" target="_blanck">Facebook</a></li>
+            <li><a href="https://www.instagram.com/breakingbad/" target="_blanck">Instagram</a></li>
+            <li><a href="https://www.youtube.com/@breakingbad" target="_blanck">Youtube</a></li>
+        </ul>
+
     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Para que funcione el menu hamburguesa -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 </body>
 
