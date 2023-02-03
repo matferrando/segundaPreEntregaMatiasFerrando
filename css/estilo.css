@@ -6,3 +6,80 @@
     height: 100%;
     object-fit: cover;
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+h1 {
+    padding: 25px;
+}
+
+.logotipo {
+    width: 150px;
+    position: relative;
+    right: 205px
+}
+
+.principal {
+    text-align: center;
+    border-bottom: 1px black dashed;
+    
+}
+        
+
+.centrado {
+    text-align: center;
+}
+
+.reparto {
+    display: inline-block;
+    border: 2px black solid;
+}
+
+
+header ul li {
+    display: inline-block;
+    margin: 20px;
+    border: 1.5px black solid;
+    padding: 5px;
+    position: relative;
+    bottom: 25px;
+
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+img {
+    width: 500px;
+}
+
+footer {
+    border: 1px #0B3205 solid;
+    margin: 10px;
+    background-color: #0D3D05;
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    .carousel-item img {
+      width: 100%;
+      height: 500px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .carousel-item img {
+      width: 100%;
+      height: 300px;
+    }
+  }

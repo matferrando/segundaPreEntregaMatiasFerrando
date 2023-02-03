@@ -6,24 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Breaking Bad - Segunda Parte</title>
-    <link rel="stylesheet" href="../style/estilo.css">
+    <!-- Plantilla personalizable -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body>
-    <header class="principal">
-        <nav>
-            <img class="logotipo navegacion" src="../img/logobreakingbad.jpg" alt="Logo de Breaking Bad">
-
-            <ul class="navegacion">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="argumento.html">Argumento y Reparto</a></li>
-                <li><a href="primerparte.html">Primer Parte</a></li>
-                <li><a href="segundaparte.html">Segunda Parte</a></li>
-                <li><a href="critica.html">Critica y Premios</a></li>
-            </ul>
-
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="argumento.html">Argumento y reparto<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="primerparte.html">Primer parte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="segundaparte.html">Segunda parte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="critica.html">Critica y premios</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-    </header>
+    </div>
 
     <main>
 
@@ -131,6 +146,9 @@
         </ul>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
