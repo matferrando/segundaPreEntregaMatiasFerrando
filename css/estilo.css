@@ -30,11 +30,11 @@ h1 {
 .centrado {
     text-align: center;
 }
-
+/* 
 .reparto {
     display: inline-block;
     border: 2px black solid;
-}
+} */
 
 
 header ul li {
@@ -83,3 +83,7 @@ footer ul li {
       height: 300px;
     }
   }
+
+div ul li {
+    list-style-type: none;
+}
